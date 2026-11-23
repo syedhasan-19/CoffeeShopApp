@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\SEM 5\\SC LAB\\CoffeeShopApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D734AD0-741C-45F7-A239-3862DBD8F68C}|CoffeeShopApp\\CoffeeShopApp.csproj|f:\\sem 5\\sc lab\\coffeeshopapp\\coffeeshopapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D734AD0-741C-45F7-A239-3862DBD8F68C}|CoffeeShopApp\\CoffeeShopApp.csproj|solutionrelative:coffeeshopapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\SEM 5\\SC LAB\\CoffeeShopApp\\CoffeeShopApp\\Program.cs",
+              "RelativeDocumentMoniker": "CoffeeShopApp\\Program.cs",
+              "ToolTip": "F:\\SEM 5\\SC LAB\\CoffeeShopApp\\CoffeeShopApp\\Program.cs",
+              "RelativeToolTip": "CoffeeShopApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T19:09:17.701Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
