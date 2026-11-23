@@ -18,7 +18,14 @@ namespace CoffeeShopApp
             Console.WriteLine("Paid $" + amount + " in cash.");
         }
     }
-
+	
+    public class CardPayment : IPaymentProcessor
+    {
+    	public void ProcessPayment(double amount)
+    	{
+        	Console.WriteLine("Paid $" + amount + " by card.");
+    	}
+    }
     public class Menu
     {
         public double CoffeePrice { get; set; } = 3.50;
@@ -50,8 +57,12 @@ namespace CoffeeShopApp
         {
             IPaymentProcessor payment = new CashPayment();
             CoffeeShop shop = new CoffeeShop(payment);
-
             shop.PlaceOrder(true, true);
+
+	    IPaymentProcessor cardPayment = new CardPayment();
+            CoffeeShop shop2 = new CoffeeShop(cardPayment);
+            shop2.PlaceOrder(true, false);
+
             Console.ReadLine();
         }
     }
